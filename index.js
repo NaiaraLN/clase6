@@ -78,9 +78,9 @@ let product3 = {
 let file = new Contenedor("productos.txt")
 
 getMethods = async () => {
-    //await file.save(product1)
-    //await file.save(product2)
-    //await file.save(product3)
+    await file.save(product1)
+    await file.save(product2)
+    await file.save(product3)
     await file.getAll()
 }
 
